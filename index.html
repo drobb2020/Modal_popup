@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Subscription Modal</title>
+  </head>
+  <body>
+    <button class="btn" onClick="popupToggle();">Subscribe to our newsletter</button>
+
+    <div id="popup">
+      <div class="content">
+        <img src="./img/email.png" alt="email" />
+        <h2>Join our newsletter</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique sint veritatis mollitia, at ipsam inventore? Quaerat at dolores ad?</p>
+        <div class="inputBox">
+          <input type="email" placeholder="Enter your email">
+        </div>
+        <div class="inputBox">
+          <input type="submit" value="Sign Up" class="btn">
+        </div>
+        <a href="" class="close" onClick="popupToggle();">&times;</a>
+      </div>
+    </div>
+
+    <!-- <div>
+      Icons made by
+      <a href="http://www.freepik.com" title="Freepik">Freepik</a> from
+      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+    </div> -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
